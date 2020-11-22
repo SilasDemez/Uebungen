@@ -1,6 +1,9 @@
 # Compiled class file
 *.class
 
+# Remove .idea directory
+.idea/
+
 # Log file
 *.log
 
