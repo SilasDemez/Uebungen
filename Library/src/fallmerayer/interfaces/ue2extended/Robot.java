@@ -1,10 +1,10 @@
 package fallmerayer.interfaces.ue2extended;
 
 public interface Robot {
-    int x = 0;
-    int y = 0;
+    //int x = 0;
+    //int y = 0;
 
-    int[] getPos();
+    double[] getPos();
 
     void advance();
 

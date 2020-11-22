@@ -2,7 +2,7 @@ package fallmerayer.interfaces.ue2extended;
 import javax.swing.JOptionPane;
 
 public class RemoteControl {
-    protected static void control(Robot robot){
+    public static void control(Robot robot){
 
         String str = JOptionPane.showInputDialog("Bitte geben Sie eine Reihe dieser Buchstaben ein: p, a, l, r");
         str = str.toLowerCase();
