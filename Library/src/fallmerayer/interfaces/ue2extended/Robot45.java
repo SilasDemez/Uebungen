@@ -1,5 +1,4 @@
 package fallmerayer.interfaces.ue2extended;
-import java.lang.Math;
 
 import static java.lang.Math.sqrt;
 
@@ -9,7 +8,7 @@ public class Robot45 implements Robot{
 
     @Override
     public double[] getPos() {
-        double[] xy = new double[1];
+        double[] xy = new double[2];
         /* to indicate direction in wich the robot is pointing
         1 = 0°  (left)
         2 = 45°

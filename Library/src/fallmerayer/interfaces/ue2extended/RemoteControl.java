@@ -11,7 +11,10 @@ public class RemoteControl {
         for(int i=0; i<str.length();i++){
            switch (str.charAt(i)) {
                case 'p':
-                   System.out.println(robot.getPos());
+                   //System.out.println(robot.getPos());
+                   double[] xy = robot.getPos();
+                   System.out.println("Position des Robots (x|y):");
+                   System.out.println("  x: " + xy[0] + "\n  y: " + xy[1]);
                    break;
                case 'a':
                    robot.advance();

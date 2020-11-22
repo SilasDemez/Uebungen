@@ -1,11 +1,12 @@
 package fallmerayer.interfaces.ue2extended;
 
 public class Robot90 implements Robot{
-    protected int x, y, pos = 2;
+    protected double x, y;
+    protected int pos = 2;
 
     @Override
     public double[] getPos() {
-        double[] xy = new double[1];
+        double[] xy = new double[2];
 /* to indicate direction in wich the robot is pointing (2 = forward, 1 = left, 3 = right, 4 = down) */
         xy[0] = x;
         xy[1] = y;
