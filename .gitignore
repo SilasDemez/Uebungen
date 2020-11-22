@@ -4,6 +4,14 @@
 # Remove .idea directory
 .idea/
 
+# Remove .settings directory
+*.prefs
+
+# Remove several files
+*.classpath
+*.project
+*.iml
+
 # Log file
 *.log
 
