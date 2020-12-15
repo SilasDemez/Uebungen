@@ -1,5 +1,3 @@
-package fallmerayer.interfaces;
-
 public class Fahrplan {
 
     Fahrplan(){}

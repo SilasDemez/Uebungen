@@ -1,5 +1,3 @@
-package fallmerayer.interfaces;
-
 public class Preisabfrage extends Fahrplan implements EinfacheFahrt, HinUndRueckFahrt{
 
     @Override

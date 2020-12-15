@@ -1,4 +1,3 @@
-package it.fallmerayer.Programmierübungen;
 import java.util.Scanner;
 
 public class PiggyBank {

@@ -1,5 +1,3 @@
-package it.fallmerayer;
-
 public class Vehicle {
 
     private int numberOfWheels = 4;

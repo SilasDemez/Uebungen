@@ -1,5 +1,3 @@
-package it.fallmerayer.Programmierübungen;
-
 public class GebrauchtAuto extends Auto{
 
     int kilometer;

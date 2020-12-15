@@ -1,5 +1,3 @@
-package it.fallmerayer.Programmierübungen;
-
 public class AutoHaendler {
         public static void main (String[] args) {
             GebrauchtAuto auto1 = new GebrauchtAuto(20000,2002,"Audi TT",70000);

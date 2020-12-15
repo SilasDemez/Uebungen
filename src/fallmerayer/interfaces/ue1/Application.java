@@ -1,5 +1,3 @@
-package fallmerayer.interfaces;
-
 public class Application {
     public static void main(String[] args) {
         Preisabfrage test = new Preisabfrage();

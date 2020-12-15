@@ -1,7 +1,3 @@
-package it.fallmerayer.Programmierübungen;
-
-import javax.imageio.ImageTranscoder;
-
 public class ExtendedPath extends BasicPath{
 
     public double length(){

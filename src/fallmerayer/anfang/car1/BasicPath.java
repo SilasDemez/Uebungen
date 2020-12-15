@@ -1,5 +1,3 @@
-package it.fallmerayer.Programmierübungen;
-
 import java.util.ArrayList;
 
 public class BasicPath {

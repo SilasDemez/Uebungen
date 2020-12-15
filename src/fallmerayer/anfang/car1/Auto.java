@@ -1,5 +1,3 @@
-package it.fallmerayer.Programmierübungen;
-
 public class Auto {
     protected double neuwagenpreis;
     protected int baujahr;
