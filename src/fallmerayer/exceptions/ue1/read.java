@@ -5,7 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Application {
+public class read {
     public static void main(String[] args) {
         String str;
         BufferedReader br = null;
@@ -17,6 +17,7 @@ public class Application {
         }
         for(int i=0; i<5;i++) {
             try {
+                assert br != null;
                 str = br.readLine();
                 System.out.println(str);
             } catch (IOException e) {
