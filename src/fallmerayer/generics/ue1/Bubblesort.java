@@ -3,7 +3,7 @@ package fallmerayer.generics.ue1;
 import java.util.Arrays;
 
 //https://big-o.io/examples/bubble-sort/java-generic/
-public class Bubblesort<T extends Comparable<? super T>> {
+public class Bubblesort<T extends Comparable> {
 
     protected T[] array;
     protected T temp;
