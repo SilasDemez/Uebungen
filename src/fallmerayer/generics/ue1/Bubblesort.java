@@ -1,6 +1,7 @@
 package fallmerayer.generics.ue1;
 
 import java.util.Arrays;
+import java.applet.Applet;
 
 //https://big-o.io/examples/bubble-sort/java-generic/
 public class Bubblesort<T extends Comparable<? super T>> {
@@ -32,7 +33,7 @@ public class Bubblesort<T extends Comparable<? super T>> {
         integerBubblesort.sort(intArray);
         System.out.println("Sorted int array: " + Arrays.toString(intArray));
 
-        System.out.println(""); // Newline
+        System.out.println(" "); // Newline
 
         // Beispiel Char
         Bubblesort<Character> stringBubblesort = new Bubblesort<>();
