@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.applet.Applet;
 
 //https://big-o.io/examples/bubble-sort/java-generic/
-public class Bubblesort<T extends Comparable<? super T>> {
+public class Bubblesort<T extends Comparable> {
 
     protected T[] array;
     protected T temp;
