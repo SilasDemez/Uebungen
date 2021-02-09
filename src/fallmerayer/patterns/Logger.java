@@ -38,4 +38,12 @@ public class Logger {
             e.printStackTrace();
         }
     }
+
+    public static class Main {
+        public static void main(String[] args) {
+            Logger logger = getInstance();
+            logger.TimeConsoleLog();
+            logger.TimeConsoleLogToFile();
+        }
+    }
 }
