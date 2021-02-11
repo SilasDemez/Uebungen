@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * GrosseSchachtel has an arraylist that contains several Kleineschachteln
+ * GrosseSchachtel has an arraylist that contains several Kleineschachteln or Großeschachteln
  */
 public class GrosseSchachtel extends Schachtel{
     private List<Schachtel> schachteln;
@@ -22,4 +22,10 @@ public class GrosseSchachtel extends Schachtel{
         return schachteln.toString();
     }
 
+    @Override
+    public String toString() {
+        return "GrosseSchachtel{" +
+                "schachteln=" + schachteln +
+                '}';
+    }
 }
