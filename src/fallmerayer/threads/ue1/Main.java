@@ -1,4 +1,4 @@
-package fallmerayer.threads.one;
+package fallmerayer.threads.ue1;
 
 public class Main {
 

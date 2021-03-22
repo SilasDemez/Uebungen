@@ -1,4 +1,4 @@
-package fallmerayer.threads.two;
+package fallmerayer.threads.ue2;
 
 import javax.swing.*;
 
