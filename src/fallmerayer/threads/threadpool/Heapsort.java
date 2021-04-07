@@ -27,7 +27,7 @@ public class Heapsort {
         }
     }
 
-    public static void sort(Comparable[] arr) {
+    public static void heapSort(Comparable[] arr) {
         total = arr.length - 1;
         for (int i = total / 2; i >= 0; i--)
             heapify(arr, i);
@@ -42,7 +42,7 @@ public class Heapsort {
         Integer[] arr = {1,50,30,10,60,80};
         System.out.println("Before Sort");
         System.out.println(Arrays.toString(arr));
-        sort(arr);
+        heapSort(arr);
         System.out.println("After Sort");
         System.out.println(Arrays.toString(arr));
     }
